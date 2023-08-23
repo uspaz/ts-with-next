@@ -1,6 +1,6 @@
-import FirstChild from "@/components/childrenParent/FirstChild";
-import Parent from "@/components/childrenParent/Parent";
-import SecondChild from "@/components/childrenParent/SecondChild";
+import FirstChild from "@/components/ChildrenParent/FirstChild";
+import Parent from "@/components/ChildrenParent/Parent";
+import SecondChild from "@/components/ChildrenParent/SecondChild";
 
 export default function ExampleChilds() {
   return (

@@ -6,4 +6,4 @@ I follow a youtuber to learn NextJS with TypeScript.
 
 ---------------------------------
 
-
+- This time I learnt about sources, server-side components and client-side components, data fetching, loading components.
