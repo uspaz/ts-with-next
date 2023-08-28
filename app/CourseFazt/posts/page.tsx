@@ -1,9 +1,12 @@
 import PostCard from "@/components/PostCard/PostCard";
 import { PostProps } from "@/types/PostProps.type";
 
-async function getPosts() {
-  const res = await fetch("https://jsonplaceholder.typicode.com/posts");
+export async function getPosts(id?: string) {
+  const res = await fetch(`https://jsonplaceholder.typicode.com/posts/${id ? id : ""}`);
   const data = await res.json();
+
+  await new Promise((resolve) =>  setTimeout(resolve, 2000))    
+
   return data;
 }
 
