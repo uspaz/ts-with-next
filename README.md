@@ -15,3 +15,7 @@ I follow a youtuber to learn NextJS with TypeScript.
 ---------------------------------
 
 - I saw something about useRouter and also worked a bit with the api folder, installed postman to practice the methods and saw a bit more how to handle parameters with params and searchparams.
+
+---------------------------------
+
+- Finish the basic course
