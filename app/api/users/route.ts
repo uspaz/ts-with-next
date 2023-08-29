@@ -6,16 +6,18 @@ export async function GET(){
     
     return NextResponse.json(data)
 }
-export function POST(){
-    return NextResponse.json({
-        message: "creando datos"
-    })
+export async function POST(request: Request ){
+    const data = await request.json()
+    console.log(data);
+    return NextResponse.json(data)
 }
+
 export function PUT(){
     return NextResponse.json({
         message: "actualizando datos"
     })
 }
+
 export function DELETE(){
     return NextResponse.json({
         message: "eliminando datos"
